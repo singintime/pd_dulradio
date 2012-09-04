@@ -1,32 +1,40 @@
 NAME=dulradio
-CFLAGS=-std=c99 -DPD -O3 -Wall -W -Wshadow -Wstrict-prototypes -Wno-unused -Wno-parentheses -Wno-switch
+CFLAGS=-O3 -Wall
+DARWIN_CFLAGS=-DDARWIN
+WIN_CFLAGS=-DBUILDING_DLL=1
+DARWIN_ARCH=-arch i386 -arch ppc
 INCLUDES=-I/usr/include/pdextended
+DARWIN_INCLUDES=-I/Applications/Pd-extended.app/Contents/Resources/include
+WIN_PD_PATH=/c/Program\ Files\ \(x86\)/pd/
+WIN_INCLUDES=-I$(WIN_PD_PATH)include
+WIN_LIBS=-L$(WIN_PD_PATH)bin/pd.lib
+WIN_DLLS=$(WIN_PD_PATH)bin/pd.dll
 
-UNIVERSAL=-arch i386 -arch ppc
-DARWINCFLAGS = $(CFLAGS) -DDARWIN $(UNIVERSAL) -pedantic
-DARWININCLUDES=-I/Applications/Pd-extended.app/Contents/Resources/include
-DARWIN_LIBS=$(UNIVERSAL)
-
-OS=$(shell uname -s)
 ARCH=$(shell uname -m)
-
 ifeq ($(ARCH), x86_64)
   CFLAGS+= -fPIC
 endif
 
-linux: $(NAME).pd_linux
+all: $(shell uname -s)
+
+Linux: $(NAME).pd_linux
 .SUFFIXES: .pd_linux
 .c.pd_linux:
-	gcc $(CFLAGS) $(INCLUDES) -o $*.o -c $*.c
-	ld -export_dynamics -shared -o $*.pd_linux $*.o
-	strip --strip-unneeded $*.pd_linux
+	gcc $(CFLAGS) $(INCLUDES) -o bin/$*.o -c $*.c
+	ld -E -shared -o bin/$*.pd_linux bin/$*.o
+	strip --strip-unneeded bin/$*.pd_linux
 
-darwin: $(NAME).pd_darwin
+Darwin: $(NAME).pd_darwin
 .SUFFIXES: .pd_darwin
 .c.pd_darwin:
-	cc  $(DARWINCFLAGS) $(DARWININCLUDES) -o $*.o -c $*.c
-	cc -bundle -undefined suppress -flat_namespace $(DARWIN_LIBS) -o $*.pd_darwin $*.o
+	cc $(CFLAGS) $(DARWIN_CFLAGS) $(DARWIN_ARCH) $(DARWIN_INCLUDES) -o bin/$*.o -c $*.c
+	cc -bundle -undefined suppress -flat_namespace $(DARWIN_ARCH) -o bin/$*.pd_darwin bin/$*.o
+
+Cygwin: $(NAME).dll
+.SUFFIXES: .dll
+.c.dll:
+	gcc $(CFLAGS) $(WIN_CFLAGS) -o bin/$*.o -c $*.c
+	ld -E -shared $(WIN_LIBS) -o $*.dll bin/$*.o $(WIN_DLLS)
 
 clean:
-	rm *.o
-	rm $(NAME).pd*
+	rm bin/*
