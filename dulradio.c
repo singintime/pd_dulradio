@@ -54,12 +54,14 @@ void dulradio_parse(t_dulradio *x)
 void dulradio_append(t_dulradio *x, t_floatarg f)
 {
   char c = (char)f;
-  if (c == '\n') {
+  if (c == '\n' || c == '\r') {
     dulradio_parse(x);
     strcpy(x->buf,"");
     return;
   }
-  strcat(x->buf, &c);
+  int len = strlen(x->buf);
+  x->buf[len] = c;
+  x->buf[len+1] = '\0';
 }
 
 void *dulradio_new(void)
