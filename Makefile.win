@@ -1,0 +1,9 @@
+PD_PATH  = /c/Program\ Files\ \(x86\)/pd/
+LIBS     = -L$(PD_PATH)bin/pd.lib
+INCS     = -I$(PD_PATH)include
+BIN      = dulradio.dll
+CFLAGS   = $(INCS) -DBUILDING_DLL=1 -O3 -Wall
+
+all:
+	gcc -c dulradio.c -o dulradio.o $(CFLAGS)
+	gcc -export-dynamic -shared $(LIBS) -o dulradio.dll dulradio.o $(PD_PATH)bin/pd.dll
