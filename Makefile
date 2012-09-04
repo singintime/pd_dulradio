@@ -9,11 +9,14 @@ WIN_PD_PATH=/c/Program\ Files\ \(x86\)/pd/
 WIN_INCLUDES=-I$(WIN_PD_PATH)include
 WIN_LIBS=-L$(WIN_PD_PATH)bin/pd.lib
 WIN_DLLS=$(WIN_PD_PATH)bin/pd.dll
+DESTDIR=bin
 
 ARCH=$(shell uname -m)
 ifeq ($(ARCH), x86_64)
   CFLAGS+= -fPIC
 endif
+
+$(shell mkdir -p $(DESTDIR))
 
 all: $(shell uname -s)
 
