@@ -1,11 +1,6 @@
-#include <string.h>
-#include <stdlib.h>
 #include <stdio.h>
-#include <unistd.h>
-#include <fcntl.h>
-#include <errno.h>
-#include <termios.h>
-#include <pthread.h>
+#include <stdlib.h>
+#include <string.h>
 #include "m_pd.h"
 
 static t_class *dulradio_class;
@@ -104,8 +99,9 @@ void dulradio_parse(t_dulradio *x)
 
 void dulradio_append(t_dulradio *x, t_floatarg f)
 {
+  if (x->len > 255) dulradio_reset(x);
   char c = (char)f;
-  if (c == '\n' || c == '\r') {
+  if ((c == '\n' || c == '\r') && (x->len >= 12 || (strstr(x->buf, ":ADC ") && x->len == 10))) {
     dulradio_parse(x);
     dulradio_reset(x);
     return;

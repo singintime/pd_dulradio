@@ -1,0 +1,445 @@
+Tmax-external
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo/Contents/Info.plist /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../Info.plist
+cSymLink /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Products/Development/dulradio.mxo /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo
+cCompileC DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/dulradio.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo/Contents/MacOS/dulradio normal i386
+cTouch /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo
+
+N/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c0000000051079391000000000000058C
+t1359451025
+s1420
+
+N/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c00000000510793A30000000000000659
+t1359451043
+s1625
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../../c74support/max-includes/MaxAPI.framework/MaxAPI
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../Info.plist
+c000000004D3ED32000000000000003CB
+t1295962912
+s971
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo
+t1359473579
+s102
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/Info.plist
+t1359473578
+s1196
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/MacOS/dulradio
+t1359473579
+s14896
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/PkgInfo
+t1359473578
+s8
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/commonsyms.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_atomarray.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_byteorder.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_dictionary.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_expr.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_hashtab.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_linklist.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_maxtypes.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_mess.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_obex.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_obex_util.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_obstring.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_path.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_prefix.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_proto.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_qtimage.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_sysfile.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_sysmem.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_systime.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_types.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/ext_wind.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/macho-prefix.pch
+c000000004D3ED32200000000000000A4
+t1295962914
+s164
+i<Carbon/Carbon.h>
+i<QuickTime/QuickTime.h>
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.LinkFileList
+c000000005107EBAA00000000000000AA
+t1359473578
+s170
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o
+t1359473578
+s12232
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/StaticAnalyzer/normal/i386/dulradio.plist
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Products/Development/dulradio.mxo
+t3
+s71
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/dulradio.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../../c74support/max-includes/MaxAPI.framework/MaxAPI
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../Info.plist
+c000000004D3ED32000000000000003CB
+t1295962912
+s971
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo
+t1359473882
+s102
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo/Contents/Info.plist
+t1359473850
+s1196
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo/Contents/MacOS/dulradio
+t1359473882
+s10308
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo/Contents/PkgInfo
+t1359473850
+s8
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/commonsyms.h
+c000000004D3ED322000000000001CD3A
+t1295962914
+s118074
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext.h
+c000000004D3ED32200000000000003FC
+t1295962914
+s1020
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_atomarray.h
+c000000004D3ED3220000000000001DD8
+t1295962914
+s7640
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_byteorder.h
+c000000004D3ED32200000000000022DD
+t1295962914
+s8925
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_dictionary.h
+c000000004D3ED32200000000000070CC
+t1295962914
+s28876
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_expr.h
+c000000004D3ED32200000000000012CA
+t1295962914
+s4810
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_hashtab.h
+c000000004D3ED322000000000000311E
+t1295962914
+s12574
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_linklist.h
+c000000004D3ED32200000000000050B4
+t1295962914
+s20660
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_maxtypes.h
+c000000004D3ED32200000000000009C0
+t1295962914
+s2496
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_mess.h
+c000000004D3ED3220000000000002991
+t1295962914
+s10641
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_obex.h
+c000000004D3ED3220000000000014F96
+t1295962914
+s85910
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_obex_util.h
+c000000004D3ED3220000000000019853
+t1295962914
+s104531
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_obstring.h
+c000000004D3ED32200000000000004F4
+t1295962914
+s1268
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_path.h
+c000000004D3ED32200000000000063C7
+t1295962914
+s25543
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_prefix.h
+c000000004D3ED3220000000000001655
+t1295962914
+s5717
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_proto.h
+c000000004D3ED3220000000000012613
+t1295962914
+s75283
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_qtimage.h
+c000000004D3ED32200000000000005E7
+t1295962914
+s1511
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_sysfile.h
+c000000004D3ED3220000000000002277
+t1295962914
+s8823
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_sysmem.h
+c000000004D3ED32200000000000016E4
+t1295962914
+s5860
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_systime.h
+c000000004D3ED3220000000000000C29
+t1295962914
+s3113
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_types.h
+c000000004D3ED322000000000000135F
+t1295962914
+s4959
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/ext_wind.h
+c000000004D3ED3220000000000000683
+t1295962914
+s1667
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/macho-prefix.pch
+c000000004D3ED32200000000000000A4
+t1295962914
+s164
+i<Carbon/Carbon.h>
+i<QuickTime/QuickTime.h>
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.LinkFileList
+c000000005107ECD900000000000000A5
+t1359473881
+s165
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o
+t1359473882
+s11248
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Products/Development/dulradio.mxo
+t3
+s71
+
+N/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/dulradio.c
+c000000005107EDB20000000000000B91
+t1359474098
+s2961
+
+CAnalyze /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/dulradio.c
+r0
+
+CBuild AST from /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/dulradio.c
+r0
+
+CBuild AST from /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/dulradio.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesdd289a3225b8b641^eab4a23225b8b641^---0#1#0#--18"Check dependencies36"68710C84-5F52-4CCC-A7F2-140994D28896-
+
+CCompileC DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/dulradio.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s381166650.031497
+e381166650.420399
+r1
+xCompileC
+xDerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o
+x/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/dulradio.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/dulradio.c9736083a24b8b641^6f636f3a24b8b641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/dulradio.c0000000000000000^2919"CompileC DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o dulradio.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.4 -g -Wno-sign-conversion -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/dulradio.hmap -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Products/Development/include -I/Developer/Headers/FlatCarbon -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/msp-includes -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/jit-includes -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/DerivedSources/i386 -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Products/Development -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/msp-includes -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/jit-includes -include /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes/macho-prefix.pch -MMD -MT dependencies -MF /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.d --serialize-diagnostics /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.dia -c /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/dulradio.c -o /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o36"FFF1D48D-F35E-4A97-9E68-A8E522AF93D1-
+
+CCompileC DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/dulradio.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s381166898.645870
+e381166899.378978
+r1
+xCompileC
+xDerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o
+x/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/dulradio.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/dulradio.ca06da53225b8b641^d504613325b8b641^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/dulradio.c0000000000000000^2834"CompileC DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o dulradio.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/aau-cph0065/code/pd_dulradio/maxmsp/src    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -Wdeprecated-declarations -mmacosx-version-min=10.4 -g -Wno-sign-conversion -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/dulradio.hmap -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Products/Development/include -I/Developer/Headers/FlatCarbon -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/msp-includes -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/jit-includes -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/DerivedSources/i386 -I/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Products/Development -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/msp-includes -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/jit-includes -include /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes/macho-prefix.pch -MMD -MT dependencies -MF /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.d --serialize-diagnostics /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.dia -c /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/dulradio.c -o /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.o36"AFC29CE8-3665-4129-A695-C1739F7D4C58-
+
+CLd /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/MacOS/dulradio normal i386
+s381166650.427266
+e381166650.524340
+r1
+xLd
+x/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/MacOS/dulradio
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/MacOS/dulradiobd6e6d3a24b8b641^9b3b863a24b8b641^---0#0#0#--1056"Ld ../bin/dulradio.mxo/Contents/MacOS/dulradio normal i386    cd /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -L/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Products/Development -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Products/Development -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/max-includes -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/msp-includes -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../c74support/jit-includes -filelist /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.LinkFileList -mmacosx-version-min=10.4 -framework MaxAPI -o /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/MacOS/dulradio36"D03B91D5-370B-4542-B347-777DA1B80005-
+
+CLd /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo/Contents/MacOS/dulradio normal i386
+s381166899.385810
+e381166899.856518
+r1
+xLd
+x/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo/Contents/MacOS/dulradio
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo/Contents/MacOS/dulradio52d3623325b8b641^6b45db3325b8b641^---0#0#0#--1016"Ld ../bin/dulradio.mxo/Contents/MacOS/dulradio normal i386    cd /Users/aau-cph0065/code/pd_dulradio/maxmsp/src    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -L/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Products/Development -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Products/Development -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/max-includes -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/msp-includes -F/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../c74support/jit-includes -filelist /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Intermediates/dulradio.build/Development/max-external.build/Objects-normal/i386/dulradio.LinkFileList -mmacosx-version-min=10.4 -framework MaxAPI -o /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo/Contents/MacOS/dulradio36"08C86024-42A6-4622-A0C5-B721F83E4178-
+
+CProcessInfoPlistFile /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/Info.plist /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../Info.plist
+s381166650.018543
+e381166650.020923
+r1
+xProcessInfoPlistFile
+x/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/Info.plist
+x/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Process /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../Info.plistb3ce043a24b8b641^c365053a24b8b641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../Info.plist0000000000000000^463"ProcessInfoPlistFile ../bin/dulradio.mxo/Contents/Info.plist ../Info.plist    cd /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio    builtin-infoPlistUtility /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../Info.plist -genpkginfo /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo/Contents/Info.plist36"2C8C35E6-D799-4E5A-8B76-4163E388C513-
+
+CProcessInfoPlistFile /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo/Contents/Info.plist /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../Info.plist
+r0
+
+CSymLink /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Products/Development/dulradio.mxo /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo
+s381166378.274200
+e381166378.282140
+r1
+xSymLink
+x/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Products/Development/dulradio.mxo
+x/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Process /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Products/Development/dulradio.mxo9f59462a23b8b641^323a482a23b8b641^---0#0#0#--349"SymLink DerivedData/dulradio/Build/Products/Development/dulradio.mxo ../bin/dulradio.mxo    cd /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio    /bin/ln -sf /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/DerivedData/dulradio/Build/Products/Development/dulradio.mxo36"89FEBDA4-3E0B-4EF8-A6D8-AFD8E4F68C6C-
+
+CSymLink /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/DerivedData/dulradio/Build/Products/Development/dulradio.mxo /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo
+r0
+
+CTouch /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo
+s381166650.532270
+e381166650.537112
+r1
+xTouch
+x/Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Touch /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo234d883a24b8b641^4e80893a24b8b641^---0#0#0#--179"Touch ../bin/dulradio.mxo    cd /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio    /usr/bin/touch -c /Users/aau-cph0065/code/pd_dulradio/maxmsp/dulradio/../bin/dulradio.mxo36"2A480C35-2C35-46A2-AECE-718D69D11259-
+
+CTouch /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo
+s381166899.864598
+e381166899.872757
+r1
+xTouch
+x/Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Touch /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo3962dd3325b8b641^db6ddf3325b8b641^---0#0#0#--169"Touch ../bin/dulradio.mxo    cd /Users/aau-cph0065/code/pd_dulradio/maxmsp/src    /usr/bin/touch -c /Users/aau-cph0065/code/pd_dulradio/maxmsp/src/../bin/dulradio.mxo36"5D563399-C831-42BF-BD9A-DE16EF02DB4D-
+
