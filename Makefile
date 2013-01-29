@@ -2,7 +2,7 @@ NAME=dulradio
 CFLAGS=-O3 -Wall
 DARWIN_CFLAGS=-DDARWIN
 WIN_CFLAGS=-DBUILDING_DLL=1
-DARWIN_ARCH=-arch i386 -arch ppc
+DARWIN_ARCH=-arch i386
 INCLUDES=-I/usr/include/pdextended
 DARWIN_INCLUDES=-I/Applications/Pd-extended.app/Contents/Resources/include
 WIN_PD_PATH=/c/Program\ Files\ \(x86\)/pd/
